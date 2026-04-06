@@ -22,6 +22,8 @@ const video = document.querySelector('.sunrise');
 video.addEventListener('mouseenter', () => {
   video.play();
 });
+/src/data/data.json
+import data from './data/data.json';
 
 video.addEventListener('mouseleave', () => {
   video.pause();
