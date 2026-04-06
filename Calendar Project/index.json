@@ -24,6 +24,10 @@ video.addEventListener('mouseenter', () => {
 });
 /src/data/data.json
 import data from './data/data.json';
+/api/data.js
+export default function handler(req, res) {
+  res.status(200).json({ message: "Hello from Vercel API!" });
+}
 
 video.addEventListener('mouseleave', () => {
   video.pause();
